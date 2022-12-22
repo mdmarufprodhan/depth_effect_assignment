@@ -14,6 +14,8 @@
 		19A8980229546A44009FF14E /* DepthEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8980129546A44009FF14E /* DepthEffectTests.swift */; };
 		19A8980C29546A44009FF14E /* DepthEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8980B29546A44009FF14E /* DepthEffectUITests.swift */; };
 		19A8980E29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8980D29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift */; };
+		19A8981D29546E06009FF14E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8981C29546E06009FF14E /* Home.swift */; };
+		19A8981F29546E21009FF14E /* LockScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8981E29546E21009FF14E /* LockScreenModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		19A8980729546A44009FF14E /* DepthEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepthEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A8980B29546A44009FF14E /* DepthEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthEffectUITests.swift; sourceTree = "<group>"; };
 		19A8980D29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthEffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19A8981C29546E06009FF14E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		19A8981E29546E21009FF14E /* LockScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		19A897EE29546A43009FF14E /* DepthEffect */ = {
 			isa = PBXGroup;
 			children = (
+				19A8981B29546DC6009FF14E /* ViewModel */,
+				19A8981A29546DBE009FF14E /* View */,
 				19A897EF29546A43009FF14E /* DepthEffectApp.swift */,
 				19A897F129546A43009FF14E /* ContentView.swift */,
 				19A897F329546A44009FF14E /* Assets.xcassets */,
@@ -127,6 +133,22 @@
 				19A8980D29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift */,
 			);
 			path = DepthEffectUITests;
+			sourceTree = "<group>";
+		};
+		19A8981A29546DBE009FF14E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19A8981C29546E06009FF14E /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19A8981B29546DC6009FF14E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				19A8981E29546E21009FF14E /* LockScreenModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				19A897F229546A43009FF14E /* ContentView.swift in Sources */,
+				19A8981D29546E06009FF14E /* Home.swift in Sources */,
+				19A8981F29546E21009FF14E /* LockScreenModel.swift in Sources */,
 				19A897F029546A43009FF14E /* DepthEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
