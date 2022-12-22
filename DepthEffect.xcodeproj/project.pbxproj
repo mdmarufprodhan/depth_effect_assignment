@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19A897F029546A43009FF14E /* DepthEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A897EF29546A43009FF14E /* DepthEffectApp.swift */; };
+		19A897F229546A43009FF14E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A897F129546A43009FF14E /* ContentView.swift */; };
+		19A897F429546A44009FF14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A897F329546A44009FF14E /* Assets.xcassets */; };
+		19A897F829546A44009FF14E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A897F729546A44009FF14E /* Preview Assets.xcassets */; };
+		19A8980229546A44009FF14E /* DepthEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8980129546A44009FF14E /* DepthEffectTests.swift */; };
+		19A8980C29546A44009FF14E /* DepthEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8980B29546A44009FF14E /* DepthEffectUITests.swift */; };
+		19A8980E29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8980D29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19A897FE29546A44009FF14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A897E429546A43009FF14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A897EB29546A43009FF14E;
+			remoteInfo = DepthEffect;
+		};
+		19A8980829546A44009FF14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A897E429546A43009FF14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A897EB29546A43009FF14E;
+			remoteInfo = DepthEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19A897EC29546A43009FF14E /* DepthEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A897EF29546A43009FF14E /* DepthEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthEffectApp.swift; sourceTree = "<group>"; };
+		19A897F129546A43009FF14E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19A897F329546A44009FF14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19A897F529546A44009FF14E /* DepthEffect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DepthEffect.entitlements; sourceTree = "<group>"; };
+		19A897F729546A44009FF14E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19A897FD29546A44009FF14E /* DepthEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepthEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A8980129546A44009FF14E /* DepthEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthEffectTests.swift; sourceTree = "<group>"; };
+		19A8980729546A44009FF14E /* DepthEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepthEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A8980B29546A44009FF14E /* DepthEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthEffectUITests.swift; sourceTree = "<group>"; };
+		19A8980D29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthEffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A897E929546A43009FF14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A897FA29546A44009FF14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A8980429546A44009FF14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A897E329546A43009FF14E = {
+			isa = PBXGroup;
+			children = (
+				19A897EE29546A43009FF14E /* DepthEffect */,
+				19A8980029546A44009FF14E /* DepthEffectTests */,
+				19A8980A29546A44009FF14E /* DepthEffectUITests */,
+				19A897ED29546A43009FF14E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19A897ED29546A43009FF14E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A897EC29546A43009FF14E /* DepthEffect.app */,
+				19A897FD29546A44009FF14E /* DepthEffectTests.xctest */,
+				19A8980729546A44009FF14E /* DepthEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A897EE29546A43009FF14E /* DepthEffect */ = {
+			isa = PBXGroup;
+			children = (
+				19A897EF29546A43009FF14E /* DepthEffectApp.swift */,
+				19A897F129546A43009FF14E /* ContentView.swift */,
+				19A897F329546A44009FF14E /* Assets.xcassets */,
+				19A897F529546A44009FF14E /* DepthEffect.entitlements */,
+				19A897F629546A44009FF14E /* Preview Content */,
+			);
+			path = DepthEffect;
+			sourceTree = "<group>";
+		};
+		19A897F629546A44009FF14E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19A897F729546A44009FF14E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19A8980029546A44009FF14E /* DepthEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				19A8980129546A44009FF14E /* DepthEffectTests.swift */,
+			);
+			path = DepthEffectTests;
+			sourceTree = "<group>";
+		};
+		19A8980A29546A44009FF14E /* DepthEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19A8980B29546A44009FF14E /* DepthEffectUITests.swift */,
+				19A8980D29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift */,
+			);
+			path = DepthEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A897EB29546A43009FF14E /* DepthEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A8981129546A44009FF14E /* Build configuration list for PBXNativeTarget "DepthEffect" */;
+			buildPhases = (
+				19A897E829546A43009FF14E /* Sources */,
+				19A897E929546A43009FF14E /* Frameworks */,
+				19A897EA29546A43009FF14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepthEffect;
+			productName = DepthEffect;
+			productReference = 19A897EC29546A43009FF14E /* DepthEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19A897FC29546A44009FF14E /* DepthEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A8981429546A44009FF14E /* Build configuration list for PBXNativeTarget "DepthEffectTests" */;
+			buildPhases = (
+				19A897F929546A44009FF14E /* Sources */,
+				19A897FA29546A44009FF14E /* Frameworks */,
+				19A897FB29546A44009FF14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A897FF29546A44009FF14E /* PBXTargetDependency */,
+			);
+			name = DepthEffectTests;
+			productName = DepthEffectTests;
+			productReference = 19A897FD29546A44009FF14E /* DepthEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19A8980629546A44009FF14E /* DepthEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A8981729546A44009FF14E /* Build configuration list for PBXNativeTarget "DepthEffectUITests" */;
+			buildPhases = (
+				19A8980329546A44009FF14E /* Sources */,
+				19A8980429546A44009FF14E /* Frameworks */,
+				19A8980529546A44009FF14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A8980929546A44009FF14E /* PBXTargetDependency */,
+			);
+			name = DepthEffectUITests;
+			productName = DepthEffectUITests;
+			productReference = 19A8980729546A44009FF14E /* DepthEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19A897E429546A43009FF14E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					19A897EB29546A43009FF14E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					19A897FC29546A44009FF14E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 19A897EB29546A43009FF14E;
+					};
+					19A8980629546A44009FF14E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 19A897EB29546A43009FF14E;
+					};
+				};
+			};
+			buildConfigurationList = 19A897E729546A43009FF14E /* Build configuration list for PBXProject "DepthEffect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19A897E329546A43009FF14E;
+			productRefGroup = 19A897ED29546A43009FF14E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A897EB29546A43009FF14E /* DepthEffect */,
+				19A897FC29546A44009FF14E /* DepthEffectTests */,
+				19A8980629546A44009FF14E /* DepthEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A897EA29546A43009FF14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A897F829546A44009FF14E /* Preview Assets.xcassets in Resources */,
+				19A897F429546A44009FF14E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A897FB29546A44009FF14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A8980529546A44009FF14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A897E829546A43009FF14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A897F229546A43009FF14E /* ContentView.swift in Sources */,
+				19A897F029546A43009FF14E /* DepthEffectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A897F929546A44009FF14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A8980229546A44009FF14E /* DepthEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A8980329546A44009FF14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A8980C29546A44009FF14E /* DepthEffectUITests.swift in Sources */,
+				19A8980E29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19A897FF29546A44009FF14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A897EB29546A43009FF14E /* DepthEffect */;
+			targetProxy = 19A897FE29546A44009FF14E /* PBXContainerItemProxy */;
+		};
+		19A8980929546A44009FF14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A897EB29546A43009FF14E /* DepthEffect */;
+			targetProxy = 19A8980829546A44009FF14E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19A8980F29546A44009FF14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19A8981029546A44009FF14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		19A8981229546A44009FF14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DepthEffect/DepthEffect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DepthEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = K346988S9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.marufprodhan.com.DepthEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19A8981329546A44009FF14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DepthEffect/DepthEffect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DepthEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = K346988S9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.marufprodhan.com.DepthEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19A8981529546A44009FF14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K346988S9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.marufprodhan.com.DepthEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepthEffect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DepthEffect";
+			};
+			name = Debug;
+		};
+		19A8981629546A44009FF14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K346988S9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.marufprodhan.com.DepthEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepthEffect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DepthEffect";
+			};
+			name = Release;
+		};
+		19A8981829546A44009FF14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K346988S9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.marufprodhan.com.DepthEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DepthEffect;
+			};
+			name = Debug;
+		};
+		19A8981929546A44009FF14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K346988S9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.marufprodhan.com.DepthEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DepthEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A897E729546A43009FF14E /* Build configuration list for PBXProject "DepthEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A8980F29546A44009FF14E /* Debug */,
+				19A8981029546A44009FF14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A8981129546A44009FF14E /* Build configuration list for PBXNativeTarget "DepthEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A8981229546A44009FF14E /* Debug */,
+				19A8981329546A44009FF14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A8981429546A44009FF14E /* Build configuration list for PBXNativeTarget "DepthEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A8981529546A44009FF14E /* Debug */,
+				19A8981629546A44009FF14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A8981729546A44009FF14E /* Build configuration list for PBXNativeTarget "DepthEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A8981829546A44009FF14E /* Debug */,
+				19A8981929546A44009FF14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19A897E429546A43009FF14E /* Project object */;
+}
