@@ -16,6 +16,7 @@
 		19A8980E29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8980D29546A44009FF14E /* DepthEffectUITestsLaunchTests.swift */; };
 		19A8981D29546E06009FF14E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8981C29546E06009FF14E /* Home.swift */; };
 		19A8981F29546E21009FF14E /* LockScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8981E29546E21009FF14E /* LockScreenModel.swift */; };
+		19A898232954CC15009FF14E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 19A898222954CC15009FF14E /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A898232954CC15009FF14E /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +169,9 @@
 			dependencies = (
 			);
 			name = DepthEffect;
+			packageProductDependencies = (
+				19A898222954CC15009FF14E /* SDWebImageSwiftUI */,
+			);
 			productName = DepthEffect;
 			productReference = 19A897EC29546A43009FF14E /* DepthEffect.app */;
 			productType = "com.apple.product-type.application";
@@ -239,6 +244,9 @@
 				Base,
 			);
 			mainGroup = 19A897E329546A43009FF14E;
+			packageReferences = (
+				19A898212954CC15009FF14E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 19A897ED29546A43009FF14E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -636,6 +644,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19A898212954CC15009FF14E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19A898222954CC15009FF14E /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19A898212954CC15009FF14E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 19A897E429546A43009FF14E /* Project object */;
 }

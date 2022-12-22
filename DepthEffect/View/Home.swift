@@ -13,7 +13,9 @@ struct Home: View {
     var body: some View {
         VStack {
             if let compressedImage = lockScreen.compresedImage {
-                //
+                Image(uiImage: compressedImage)
+                    .resizable()
+                    .aspectRatio(contentMode:.fit)
             }
             else{
                 PhotosPicker(selection: $lockScreen.pickedItem,matching: .images,preferredItemEncoding: .automatic,photoLibrary: .shared()) {
