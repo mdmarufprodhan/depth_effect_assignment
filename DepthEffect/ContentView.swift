@@ -45,16 +45,6 @@ struct ContentView: View {
             .onChange(of:lockScreenModel.onLoad) { newValue in
                 if newValue{lockScreenModel.verifyScreenColor()}
             }
-        
-        //Test show case
-//            .overlay {
-//                Circle()
-//                    .fill(.red)
-//                    .frame(width: 15,height: 15)
-//                    .position(x:lockScreenModel.textReact.midX,y: lockScreenModel.textReact.midY)
-//                    .ignoresSafeArea()
-//                
-//            }
     }
 }
 

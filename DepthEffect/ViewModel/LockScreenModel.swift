@@ -48,7 +48,7 @@ class LockscreenModel: ObservableObject{
     func segmentPersonOnImage(){
         guard let   image = compresedImage?.cgImage else {return}
         let request = VNGeneratePersonSegmentationRequest()
-        request.usesCPUOnly = true
+      //  request.usesCPUOnly = true
         let task = VNImageRequestHandler(cgImage: image)
         do {
             try task.perform([request])
