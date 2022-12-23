@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1901D74D2955BE2B009A9E41 /* CustomColorFindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901D74C2955BE2B009A9E41 /* CustomColorFindView.swift */; };
 		19A897F029546A43009FF14E /* DepthEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A897EF29546A43009FF14E /* DepthEffectApp.swift */; };
 		19A897F229546A43009FF14E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A897F129546A43009FF14E /* ContentView.swift */; };
 		19A897F429546A44009FF14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A897F329546A44009FF14E /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1901D74C2955BE2B009A9E41 /* CustomColorFindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorFindView.swift; sourceTree = "<group>"; };
 		19A897EC29546A43009FF14E /* DepthEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A897EF29546A43009FF14E /* DepthEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthEffectApp.swift; sourceTree = "<group>"; };
 		19A897F129546A43009FF14E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				19A8981C29546E06009FF14E /* Home.swift */,
+				1901D74C2955BE2B009A9E41 /* CustomColorFindView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			files = (
 				19A897F229546A43009FF14E /* ContentView.swift in Sources */,
 				19A8981D29546E06009FF14E /* Home.swift in Sources */,
+				1901D74D2955BE2B009A9E41 /* CustomColorFindView.swift in Sources */,
 				19A8981F29546E21009FF14E /* LockScreenModel.swift in Sources */,
 				19A897F029546A43009FF14E /* DepthEffectApp.swift in Sources */,
 			);

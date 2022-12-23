@@ -20,10 +20,18 @@ struct Home: View {
                         .aspectRatio(contentMode:.fit)
                         .frame(width: size.width,height: size.height)
                         .scaleEffect(lockScreen.scale)
-                        .overlay(
-                            TimeView()
-                                .environmentObject(lockScreen)
-                        )
+                        .overlay{
+                            if let detectedPerson = lockScreen.detectedPerson{
+                                TimeView()
+                                    .environmentObject(lockScreen)
+                                Image(uiImage:detectedPerson)
+                                    .resizable()
+                                    .aspectRatio(contentMode:.fit)
+                                scaleEffect(lockScreen.scale)
+                                
+                            }
+                            
+                        }
                     
                 }
             }
@@ -43,7 +51,11 @@ struct Home: View {
             Button {
                 withAnimation (.easeOut){
                     lockScreen.compresedImage = nil
+                    lockScreen.detectedPerson = nil
                 }
+                lockScreen.scale = 1
+                lockScreen.lastScale = 0
+                lockScreen.placeTextAbove = false
             } label: {
                 Text("Cancel")
             }
@@ -56,6 +68,7 @@ struct Home: View {
                     .fill(.ultraThinMaterial)
             }
             .padding(16)
+            .padding(.top,45)
             .opacity(lockScreen.compresedImage == nil ? 0:1)
         }
     }
@@ -81,6 +94,17 @@ struct TimeView : View{
                 Circle()
                     .fill(.white)
                     .frame(width: 15,height: 15)
+                    .overlay {
+                        GeometryReader { proxy in
+                            let rect = proxy.frame(in:.global)
+                            Color.clear
+                                .preference(key:ReactKey.self, value:rect)
+                                .onPreferenceChange(ReactKey.self){ value in
+                                    lockScreenModel.textReact = value
+                                }
+                        }
+                    }
+                
             }
             Text(Date.now.convertToString(.minute))
                 .font(.system(size: 95))
@@ -102,5 +126,13 @@ extension Date{
         let formater = DateFormatter()
         formater.dateFormat = format.rawValue
         return formater.string(from: self)
+    }
+}
+
+//react preference key
+struct ReactKey : PreferenceKey{
+    static var defaultValue: CGRect = .zero
+    static func reduce(value: inout CGRect, nextValue: () -> CGRect) {
+        value = nextValue()
     }
 }
