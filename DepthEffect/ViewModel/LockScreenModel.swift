@@ -8,6 +8,8 @@
 import SwiftUI
 import PhotosUI
 import SDWebImage
+import Vision
+import CoreImage
 
 class LockscreenModel: ObservableObject{
     
@@ -18,7 +20,9 @@ class LockscreenModel: ObservableObject{
         }
     }
     @Published var compresedImage : UIImage?
-    
+    //Mark : Scaling Properties
+    @Published  var scale : CGFloat = 1
+    @Published var lastScale : CGFloat = 0
     
     func extractImage(){
         if let pickedItem {
@@ -33,6 +37,10 @@ class LockscreenModel: ObservableObject{
                 })
             }
         }
+    }
+    //Mark : Person Segmentation Using Vision
+    func segmentPersonOnImage(){
+        
     }
 }
 extension UIApplication{
